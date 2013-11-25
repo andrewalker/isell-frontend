@@ -1,0 +1,24 @@
+/* main elements */
+
+#header, #menu, #content {
+    padding: 10px 0;
+}
+
+#menu { background: #333333; }
+#menu a { color: #FFFFFF; }
+#menu a:hover { background-color: #FFA64D; }
+
+#content {
+    margin-top: 50px;
+}
+
+/* filters menu */
+
+.filters { margin-bottom: 30px; }
+
+.filters .filters-input-small { width: 95px; }
+.filters .filters-input-medium { width: 220px; }
+.filters .filters-input-large { width: 300px; }
+.filters .filters-select { width: 170px; }
+
+
