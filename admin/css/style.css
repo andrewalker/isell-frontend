@@ -12,6 +12,8 @@
     margin-top: 50px;
 }
 
+.page-title h2 { margin-top: 5px; }
+
 /* filters menu */
 
 .filters { margin-bottom: 30px; }
@@ -22,3 +24,11 @@
 .filters .filters-select { width: 170px; }
 
 
+/* login form */
+#login-page { margin-top: 50px; }
+#login-page #login-form { background: #f3f3f3; padding: 20px; border-radius: 8px; }
+
+/* add category form */
+#categories .form-group .form-control {
+    width: 200px;
+}
