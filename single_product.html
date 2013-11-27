@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Visualizar Produto - iSell</title>
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body class="single_product">
+
+        <div id="header">
+            <div class="container">
+                <div class="pull-left logo">
+                    <a href="index.html">
+                        <h1>iSell</h1>
+                    </a>
+                </div>
+
+                <div class="pull-right">
+                    <ul class="nav nav-pills pull-right">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Cadastre-se</a></li>
+                    </ul>
+
+                    <div class="clearfix"></div>
+
+                    <div id="search_form">
+                        <form class="form-inline">
+
+                            <div class="form-group">
+                                <input type="text" id="header_search" class="form-control" placeholder="Encontre um produto">
+                            </div>
+                            <input type="submit" class="btn btn-warning" value="buscar">
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div><!-- end .container -->
+        </div><!-- end #header -->
+
+        <div id="menu">
+            <div class="container">
+                <ul class="nav nav-pills">
+                    <li><a href="index.html">Jogos</a></li>
+                    <li><a href="index.html">CDs</a></li>
+                    <li><a href="index.html">Livros</a></li>
+                    <li><a href="index.html">Tablets</a></li>
+                </ul>
+            </div><!-- end .container -->
+        </div><!-- end #main_menu -->
+
+        <div id="content">
+            <div class="container">
+
+                <div class="page-title">
+                    <h1>Battlefield 4</h1>
+                    <em class="tags">Em: Jogos, CDs</em>
+                </div>
+
+                <div class="page-content">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="product_photos">
+                                <div id="product_photos" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#product_photos" data-slide-to="0" class="active"></li>
+                                      <li data-target="#product_photos" data-slide-to="1"></li>
+                                      <li data-target="#product_photos" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="item active">
+                                        <img src="images/example/3.jpg">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/example/1.jpg">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/example/2.jpg">
+                                      </div>
+                                    </div>
+                                    <a class="left carousel-control" href="#product_photos" data-slide="prev">
+                                      <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#product_photos" data-slide="next">
+                                      <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div><!-- end #product_photos -->
+                            </div><!-- end .product_photos -->
+                        </div><!-- end .col-md-6 -->
+
+                        <div class="col-md-6">
+                            <div class="product_data">
+
+                                <div class="price_conditions">
+                                    <strong>R$ 120,00</strong>
+                                    <p>
+                                        10% de desconto à Vista <br>
+                                        Ou em até 10x via PagSeguro
+                                    </p>
+                                </div><!-- end .price_conditions -->
+
+                                <div class="description">
+                                    <strong>Descrição do produto:</strong>
+                                    <p>
+                                        Jogue o divisor de águas no gênero da ação e viva os momentos existentes apenas em Battlefield. Com ambientes dinâmicos destrutíveis, combates veiculares épicos e o caos de uma guerra real, Battlefield 4 lhe dá a liberdade de fazer muito mais e de escolher qual caminho trilhar rumo à vitória.
+                                    </p>
+                                </div><!-- end .description -->
+
+                                <div class="purchase text-right">
+                                    <a href="shopping_cart.html" class="btn btn-lg btn-success">Comprar</a>
+                                </div>
+                            </div><!-- end .product_data -->
+
+                        </div><!-- end .col-md-6 -->
+
+                    </div><!-- end .row -->
+                </div><!-- end .page-content -->
+
+
+            </div><!-- end .container -->
+        </div><!-- end #content -->
+
+        <div id="footer">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <h1>iSell</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3>A sua loja personalizada:</h3>
+                        <p>A iSell é uma loja personalizada para você. Com jogos, eletrônicos e livros, somos a mais completa solução, com preços muito baratos!</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3>Entre em contato</h3>
+                        <p><address>Rua Exemplo, 123, São Carlos - SP</address></p>
+                        <p>
+                            <strong>Telefone: </strong>(DDD) 1234-5678<br>
+                            <strong>E-mail: </strong>contato@isell.com.br
+                        </p>
+                    </div>
+                </div><!-- end .row -->
+
+            </div><!-- end .container -->
+        </div><!-- end #footer -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+</html>
